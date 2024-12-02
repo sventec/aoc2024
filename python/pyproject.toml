@@ -1,0 +1,18 @@
+[tool.ruff]
+# see config at: https://github.com/sventec/dots/blob/main/.config/ruff/pyproject.toml
+extend = "~/.config/ruff/pyproject.toml"
+extend-exclude = ["test_template.py"]
+
+[tool.ruff.lint]
+extend-ignore = ["E741"]
+
+[project]
+name = "aoc2024"
+version = "0.1.0"
+description = "Advent of Code 2024, in Python."
+authors = [
+  { name = "sventec", email = "18218761+sventec@users.noreply.github.com" },
+]
+dependencies = []
+requires-python = ">=3.11"
+readme = "README.md"
