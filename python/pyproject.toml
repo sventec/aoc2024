@@ -4,7 +4,7 @@ extend = "~/.config/ruff/pyproject.toml"
 extend-exclude = ["test_template.py"]
 
 [tool.ruff.lint]
-extend-ignore = ["E741"]
+extend-ignore = ["E741", "PLR2004", "EXE001"]
 
 [project]
 name = "aoc2024"
